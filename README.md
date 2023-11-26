@@ -23,8 +23,9 @@ To Run the Tests please do the following:
 - Execute mvn test in IntelliJ terminal
 
 
-- To run Tests From IntelliJ Run Configuration execute:
+- To run Tests From IntelliJ Maven Configuration execute:
   - clean test -Dcucumber.filter.tags=@RegressionTest
+  - make sure JDK path is set in project settings in IntelliJ.
 
 
 
