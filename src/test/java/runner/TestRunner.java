@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
         glue = {"stepDefinition"},
         plugin = {"pretty",
                 "html:target/cucumber-reports.html", "json:target/cucumber.json"},
-                //"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
 
         monochrome = false,
         publish = true,
